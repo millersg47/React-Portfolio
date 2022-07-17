@@ -2,7 +2,7 @@ import logo from "./logo.svg";
 import React, { useState, useEffect } from "react";
 import "./App.css";
 import About from "./components/AboutMe";
-import Contact from "./components/ContactMe";
+import Form from "./components/Form";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Nav from "./components/Navigation";
@@ -15,7 +15,7 @@ function App() {
     if (page === "About") {
       return <About></About>;
     } else if (page === "Contact") {
-      return <Contact></Contact>;
+      return <Form></Form>;
     } else if (page === "AllProjects") {
       return <AllProjects></AllProjects>;
     }
