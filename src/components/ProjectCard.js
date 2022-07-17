@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 
-function Project() {
+function Project({ data }) {
   return (
     <div>
-      <h1>Project 1</h1>
+      <h3>{data.name}</h3>
+      <img src={data.image}></img>
     </div>
   );
 }

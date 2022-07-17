@@ -6,7 +6,7 @@ import Contact from "./components/ContactMe";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Nav from "./components/Navigation";
-import Project from "./components/Project";
+// import Project from "./components/ProjectCard";
 import AllProjects from "./components/AllProjects";
 
 function App() {
