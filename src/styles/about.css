@@ -1,0 +1,26 @@
+.profile {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.page-bkg {
+  /* background-color: #f58f29; */
+  background-color: #15616d;
+}
+.about-heading {
+  background-color: #f58f29;
+  color: #eeebd0;
+  font-family: "Space Mono", monospace;
+}
+
+.about-text {
+  text-align: center;
+  padding-left: 4%;
+  padding-right: 4%;
+  color: #3f0d12;
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+}

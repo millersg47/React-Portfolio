@@ -1,10 +1,11 @@
 import React, { useState } from "react";
+import "../styles/header.css";
 
 function Header(props) {
   const { children } = props;
   return (
-    <div className="navbar">
-      <h1>Sophie Miller</h1>
+    <div className="navbar header-bkg">
+      <h1 className="header-name">SOPHIE MILLER</h1>
       {children}
     </div>
   );

@@ -5,7 +5,7 @@ function Nav(props) {
   return (
     <ul className="navbar-nav nav-ul">
       <li className="nav-item" onClick={() => setPage("About")}>
-        About Me
+        About
       </li>
       <li className="nav-item" onClick={() => setPage("AllProjects")}>
         Projects

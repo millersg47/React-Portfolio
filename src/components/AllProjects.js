@@ -4,6 +4,8 @@ import localExchange from "../images/local_exchange_hub.png";
 import starParty from "../images/StarParty_main_page.png";
 import teamProfile from "../images/team-profile-generator.png";
 import textEditor from "../images/PWA-text-editor.png";
+import techBlog from "../images/tech-blog.png";
+import weatherDash from "../images/weather-dash.png";
 
 function AllProjects() {
   const projectInfo = [
@@ -29,6 +31,18 @@ function AllProjects() {
       image: textEditor,
       github: "https://github.com/millersg47/text-editor",
       deployed: "https://text-editor-sgm.herokuapp.com/",
+    },
+    {
+      name: "Weather Dashboard",
+      image: weatherDash,
+      github: "https://github.com/millersg47/weather-dashboard",
+      deployed: "https://millersg47.github.io/weather-dashboard/",
+    },
+    {
+      name: "Tech Blog",
+      image: techBlog,
+      github: "https://github.com/millersg47/tech-blog-MVC",
+      deployed: "https://tech-blog-mvc-sgm.herokuapp.com/",
     },
   ];
 
