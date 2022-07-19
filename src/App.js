@@ -23,10 +23,12 @@ function App() {
 
   return (
     <div className="App">
-      <Header>
-        <Nav setPage={setPage} page={page}></Nav>
-      </Header>
-      {renderPage()}
+      <div>
+        <Header>
+          <Nav setPage={setPage} page={page}></Nav>
+        </Header>
+        {renderPage()}
+      </div>
       <Footer></Footer>
     </div>
   );

@@ -4,9 +4,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function Project({ data, i }) {
   return (
     <div
-      // className={"card" + i < 2 ? " top-card" : " bottom-card"}
-      className={"card" + i < 2 ? " top-card" : " bottom-card"}
-      style={!i ? { width: "30rem" } : { width: "18rem" }}
+      // className={"card" + (i < 2 ? " top-card" : " bottom-card")}
+      className={"card card-" + i}
+      // style={!i ? { width: "30rem" } : { width: "18rem" }}
     >
       <img className="card-img-top" src={data.image} alt="Card image cap" />
       <div className="card-body">
