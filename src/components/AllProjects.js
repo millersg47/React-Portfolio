@@ -49,8 +49,8 @@ function AllProjects() {
   return (
     <div>
       <h1>This contains all the projects</h1>
-      {projectInfo.map((data) => (
-        <Project data={data}></Project>
+      {projectInfo.map((data, i) => (
+        <Project data={data} i={i}></Project>
       ))}
     </div>
   );

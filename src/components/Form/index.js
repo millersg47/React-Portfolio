@@ -48,14 +48,14 @@ function Contact() {
         />
         <input
           value={name}
-          name="Name"
+          name="name"
           onChange={handleInputChange}
           type="text"
           placeholder="name"
         />
         <input
           value={message}
-          name="password"
+          name="message"
           onChange={handleInputChange}
           type="text"
           placeholder="drop a line"
