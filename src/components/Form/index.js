@@ -5,6 +5,7 @@ function Contact() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [error, setError] = useState("");
 
   const handleInputChange = (e) => {
     const { target } = e;
@@ -26,14 +27,30 @@ function Contact() {
     e.preventDefault();
 
     // Checks if email is valid
-    if (!validateEmail(email)) {
-      alert("Email is invalid");
+    // if (!validateEmail(email)) {
+    //   alert("Email is invalid");
 
-      return;
-    }
+    //   return;
+    // }
     setName("");
     setMessage("");
     setEmail("");
+  };
+
+  const handleError = (e) => {
+    const { target } = e;
+    const inputType = target.name;
+    const inputValue = target.value;
+
+    if (inputType === "name" && inputValue.length === 0) {
+      setError("Name is too short");
+    } else if (inputType === "message" && inputValue.length === 0) {
+      setError("No message included");
+    } else if (!validateEmail(email)) {
+      setError("Email is invalid");
+    } else {
+      setError("");
+    }
   };
 
   return (
@@ -43,6 +60,7 @@ function Contact() {
           value={email}
           name="email"
           onChange={handleInputChange}
+          onBlur={handleError}
           type="email"
           placeholder="email"
         />
@@ -50,6 +68,7 @@ function Contact() {
           value={name}
           name="name"
           onChange={handleInputChange}
+          onBlur={handleError}
           type="text"
           placeholder="name"
         />
@@ -57,12 +76,18 @@ function Contact() {
           value={message}
           name="message"
           onChange={handleInputChange}
+          onBlur={handleError}
           type="text"
           placeholder="drop a line"
         />
-        <button type="button" onClick={handleFormSubmit}>
+        <button
+          disabled={error.length}
+          type="button"
+          onClick={handleFormSubmit}
+        >
           Submit
         </button>
+        {error.length ? <p>{error}</p> : null}
       </form>
     </div>
   );

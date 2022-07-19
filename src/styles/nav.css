@@ -4,4 +4,11 @@
 
 .custom-nav-item {
   font-family: "Space Mono", monospace;
+  color: #3f0d12;
+  cursor: grab;
+}
+
+.resume {
+  text-decoration: none;
+  color: #3f0d12;
 }
