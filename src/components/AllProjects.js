@@ -1,11 +1,12 @@
 import React, { useState } from "react";
 import Project from "./ProjectCard";
-import localExchange from "../images/local_exchange_hub.png";
+import localExchange from "../images/local-exchange-hub.png";
 import starParty from "../images/StarParty_main_page.png";
 import teamProfile from "../images/team-profile-generator.png";
 import textEditor from "../images/PWA-text-editor.png";
 import techBlog from "../images/tech-blog.png";
 import weatherDash from "../images/weather-dash.png";
+import "../styles/projects.css";
 
 function AllProjects() {
   const projectInfo = [
@@ -48,10 +49,12 @@ function AllProjects() {
 
   return (
     <div>
-      <h1>This contains all the projects</h1>
-      {projectInfo.map((data, i) => (
-        <Project data={data} i={i}></Project>
-      ))}
+      <h1 className="work-header">Work</h1>
+      <div className="page-bkg">
+        {projectInfo.map((data, i) => (
+          <Project data={data} i={i}></Project>
+        ))}
+      </div>
     </div>
   );
 }

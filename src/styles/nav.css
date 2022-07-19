@@ -5,7 +5,7 @@
 .custom-nav-item {
   font-family: "Space Mono", monospace;
   color: #3f0d12;
-  cursor: grab;
+  cursor: default;
 }
 
 .resume {

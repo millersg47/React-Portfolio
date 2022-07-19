@@ -1,0 +1,38 @@
+.work-header {
+  background-color: #f58f29;
+  color: #eeebd0;
+  font-family: "Space Mono", monospace;
+  margin-bottom: 0;
+}
+.projects {
+  background-color: #15616d;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+}
+
+.image-border {
+  border: 2px solid #f58f29;
+}
+
+.custom-card {
+  margin: 2%;
+  height: fit-content;
+  justify-items: center;
+}
+
+.custom-card-title {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+}
+
+.custom-card-text {
+  font-family: "Space Mono", monospace;
+  text-decoration: none;
+  color: #3f0d12;
+  page-break-after: always;
+}
+
+.custom-card-text:hover {
+  color: #15616d;
+}
