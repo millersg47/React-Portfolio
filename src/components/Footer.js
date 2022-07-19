@@ -7,10 +7,10 @@ function Footer() {
   return (
     <div className="footer">
       <a href="https://www.linkedin.com/in/sophie-garner-miller/">
-        <img src={linkedin} />
+        <img className="icon" src={linkedin} />
       </a>
       <a href="mailto: millersg47@gmail.com">
-        <img src={email} />
+        <img className="icon" src={email} />
       </a>
     </div>
   );

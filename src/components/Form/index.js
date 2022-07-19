@@ -16,7 +16,7 @@ function Contact() {
       setEmail(inputValue);
     } else if (inputType === "name") {
       setName(inputValue);
-    } else {
+    } else if (inputType === "message") {
       setMessage(inputValue);
     }
   };
