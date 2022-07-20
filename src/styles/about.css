@@ -8,7 +8,7 @@
 
 .page-bkg {
   background-color: #15616d;
-  height: 89vh;
+  height: 100vh;
 }
 .about-heading {
   background-color: #f58f29;
@@ -22,5 +22,36 @@
   padding-right: 4%;
   color: #3f0d12;
   font-family: "Space Mono", monospace;
-  font-weight: 700;
+  font-size: small;
+  /* font-weight: 700; */
+}
+
+/* media query for tablet size screens */
+@media screen and (min-width: 768px) {
+  .profile {
+    display: block;
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 100%;
+  }
+}
+
+/* media query for larger screens */
+@media screen and (min-width: 992px) {
+  .profile {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .about-text {
+    text-align: center;
+    padding-left: 4%;
+    padding-right: 4%;
+    color: #3f0d12;
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+  }
 }

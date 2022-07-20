@@ -8,6 +8,14 @@
   cursor: default;
 }
 
+.custom-nav-item:hover {
+  color: #15616d;
+}
+
+.custom-nav-item:active {
+  color: #15616d;
+}
+
 .resume {
   text-decoration: none;
   color: #3f0d12;
