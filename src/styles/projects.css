@@ -6,9 +6,6 @@
 }
 .projects {
   background-color: #15616d;
-  /* display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 50% 50%; */
   display: flex;
   justify-items: center;
 }

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import linkedin from "../images/linkedin.png";
 import email from "../images/email.png";
 import github from "../images/github-logo.png";

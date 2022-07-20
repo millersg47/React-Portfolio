@@ -1,6 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
 import "../styles/nav.css";
-//add link to resume file location;
 import resume from "../assets/SM_Resume0717.pdf";
 
 function Nav(props) {

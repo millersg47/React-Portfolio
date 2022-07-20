@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Project from "./ProjectCard";
 import localExchange from "../images/local-exchange-hub.png";
 import starParty from "../images/StarParty_main_page.png";
