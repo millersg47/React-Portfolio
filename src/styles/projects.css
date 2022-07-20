@@ -9,6 +9,7 @@
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-rows: 50% 50%;
+  justify-items: center;
 }
 
 .image-border {
@@ -35,4 +36,7 @@
 
 .custom-card-text:hover {
   color: #15616d;
+}
+
+.card-0 {
 }

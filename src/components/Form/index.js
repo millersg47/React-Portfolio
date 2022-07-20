@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import validateEmail from "./utils/helpers";
+import "./style/form.css";
 
 function Contact() {
   const [name, setName] = useState("");
@@ -26,12 +27,6 @@ function Contact() {
     // Preventing the default behavior of the form submit (which is to refresh the page)
     e.preventDefault();
 
-    // Checks if email is valid
-    // if (!validateEmail(email)) {
-    //   alert("Email is invalid");
-
-    //   return;
-    // }
     setName("");
     setMessage("");
     setEmail("");
@@ -54,9 +49,11 @@ function Contact() {
   };
 
   return (
-    <div>
-      <form className="form">
+    <div className="contact-page">
+      <h1 className="contact-header">Get In Touch</h1>
+      <form className="form custom-form">
         <input
+          className="custom-input"
           value={email}
           name="email"
           onChange={handleInputChange}
@@ -65,6 +62,7 @@ function Contact() {
           placeholder="email"
         />
         <input
+          className="custom-input"
           value={name}
           name="name"
           onChange={handleInputChange}
@@ -73,6 +71,7 @@ function Contact() {
           placeholder="name"
         />
         <input
+          className="custom-input"
           value={message}
           name="message"
           onChange={handleInputChange}
@@ -81,6 +80,7 @@ function Contact() {
           placeholder="drop a line"
         />
         <button
+          className="custom-button"
           disabled={error.length}
           type="button"
           onClick={handleFormSubmit}

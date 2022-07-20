@@ -1,0 +1,35 @@
+.contact-header {
+  background-color: #f58f29;
+  color: #eeebd0;
+  font-family: "Space Mono", monospace;
+  margin-bottom: 0;
+}
+
+.contact-page {
+  background-color: #15616d;
+  height: 90vh;
+}
+
+.custom-form {
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  margin-top: 5%;
+}
+
+.custom-input {
+  width: 100%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  border: 1px solid #15616d;
+  border-radius: 2px;
+  background-color: #eeebd0;
+}
+
+.custom-button {
+  background-color: #3f0d12;
+  border: 1px solid #f58f29;
+  border-radius: 2px;
+  color: #eeebd0;
+  font-family: "Space Mono", monospace;
+}
