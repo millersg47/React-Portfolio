@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.41bed78e.css",
-    "main.js": "/React-Portfolio/static/js/main.4864ddfc.js",
+    "main.js": "/React-Portfolio/static/js/main.77adfd3c.js",
     "static/js/787.0e6c9168.chunk.js": "/React-Portfolio/static/js/787.0e6c9168.chunk.js",
     "static/media/local-exchange-hub.png": "/React-Portfolio/static/media/local-exchange-hub.3fa7631026d0f38d856a.png",
     "static/media/profile.jpg": "/React-Portfolio/static/media/profile.70a62ccce15a60e4b1bc.jpg",
@@ -12,14 +12,15 @@
     "static/media/tech-blog.png": "/React-Portfolio/static/media/tech-blog.de99bf7813bf821870c1.png",
     "static/media/SM_Resume0717.pdf": "/React-Portfolio/static/media/SM_Resume0717.a124d0bd00ab3573bc65.pdf",
     "static/media/email.png": "/React-Portfolio/static/media/email.a49e015815e3ac6d2bd3.png",
+    "static/media/stackoverflow.png": "/React-Portfolio/static/media/stackoverflow.0123b8df35f2e7d20bc8.png",
     "static/media/logo.svg": "/React-Portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/React-Portfolio/index.html",
     "main.41bed78e.css.map": "/React-Portfolio/static/css/main.41bed78e.css.map",
-    "main.4864ddfc.js.map": "/React-Portfolio/static/js/main.4864ddfc.js.map",
+    "main.77adfd3c.js.map": "/React-Portfolio/static/js/main.77adfd3c.js.map",
     "787.0e6c9168.chunk.js.map": "/React-Portfolio/static/js/787.0e6c9168.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.41bed78e.css",
-    "static/js/main.4864ddfc.js"
+    "static/js/main.77adfd3c.js"
   ]
 }
