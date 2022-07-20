@@ -6,25 +6,25 @@
 }
 .projects {
   background-color: #15616d;
-  display: grid;
+  /* display: grid;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 50% 50%;
+  grid-template-rows: 50% 50%; */
+  display: flex;
   justify-items: center;
-}
-
-.image-border {
-  border: 2px solid #f58f29;
 }
 
 .custom-card {
   margin: 2%;
   height: fit-content;
   justify-items: center;
+  background-color: #eeebd0;
+  border: 2px solid #f58f29;
 }
 
 .custom-card-title {
   font-family: "Space Mono", monospace;
   font-weight: 700;
+  color: #15616d;
 }
 
 .custom-card-text {
@@ -36,7 +36,4 @@
 
 .custom-card-text:hover {
   color: #15616d;
-}
-
-.card-0 {
 }

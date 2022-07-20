@@ -10,17 +10,13 @@ function Project({ data, i }) {
         className={"card custom-card card-" + i}
         // style={!i ? { width: "30rem" } : { width: "18rem" }}
       >
-        <img
-          className="card-img-top image-border"
-          src={data.image}
-          alt="Card image cap"
-        />
+        <img className="card-img-top" src={data.image} alt="Card image cap" />
         <div className="card-body">
           <h5 className="card-title custom-card-title">{data.name}</h5>
           <a href={data.github} className="card-text custom-card-text">
             Github Repo
           </a>
-
+          <br></br>
           {data?.deployed ? (
             <a href={data?.deployed} className="custom-card-text">
               Deployed Site
